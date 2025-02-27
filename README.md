@@ -6,8 +6,11 @@ https://www.python.org/ftp/python/3.13.2/python-3.13.2-amd64.exe
 
 https://nodejs.org/dist/v22.14.0/node-v22.14.0-x64.msi
 
-# Instale os requirements
+# Crie uma venv e instale os requirements
 
+python -m venv venv
+venv\Scripts\activate  # Windows
+source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 
 # Instale o Yarn e Axios
