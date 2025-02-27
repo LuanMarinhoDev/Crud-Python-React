@@ -1,3 +1,7 @@
+# Instale o Python
+
+https://www.python.org/ftp/python/3.13.2/python-3.13.2-amd64.exe
+
 # Instale o Node
 
 https://nodejs.org/dist/v22.14.0/node-v22.14.0-x64.msi
