@@ -1,0 +1,84 @@
+.activities-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.activities-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.activity-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+.activity-item div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.activity-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.Pendente {
+    background-color: orange;
+}
+
+.Emprogresso {
+    background-color: #007bff;
+}
+
+.Concluída {
+    background-color: green;
+}
+
+.btn-remove {
+    align-self: flex-end;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.btn-edit {
+    align-self: flex-start;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.btn-secondary {
+    margin-top: 15px;
+}

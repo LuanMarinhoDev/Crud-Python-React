@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustra+Medium&display=swap');
+
+
+header {
+    background-color: #002D4E;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.activity-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+}
+
+.activity-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.div-contact-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.activity-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
+
+.logo-data {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.activities-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+h1.name-business{
+    font-family: 'Lustra Medium', sans-serif;
+    font-size: 32px;
+}
+
+.input{
+    size: 200px;
+}

@@ -1,0 +1,32 @@
+/* Estilos para a tela principal */
+.login-box {
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-box h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group label {
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
