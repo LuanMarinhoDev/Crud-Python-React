@@ -8,11 +8,12 @@ https://nodejs.org/dist/v22.14.0/node-v22.14.0-x64.msi
 
 # Instale os requirements
 
+pip install -r requirements.txt
+
+# Instale o Yarn e Axios
+
 npm install yarn (Caso der erro no Windows, execute Set-ExecutionPolicy Unrestricted -Scope CurrentUser como adm no powershell)
-
-# Instale o Yarn
-
-npm install -g yarn
+npm install axios
 
 # Para rodar o front-end execute esses dois comandos
 
